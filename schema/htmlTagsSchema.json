@@ -1,5 +1,5 @@
 {
-  "$schema": "https://github.com/Mosberg/.github/schema/htmlTagsSchema.json",
+  "$schema": "https://github.com/Mosberg/.github/blob/learning/schema/htmlTagsSchema.json",
   "type": "object",
   "properties": {
     "area": {
