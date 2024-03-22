@@ -1,0 +1,40 @@
+{
+  "$schema": "https://github.com/Mosberg/.github/schema/htmlTagsSchema.json",
+  "type": "object",
+  "properties": {
+    "area": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the area"
+          },
+          "shape": {
+            "type": "string",
+            "description": "Specifies the shape of the area"
+          },
+          "coords": {
+            "type": "string",
+            "description": "Specifies the coordinates of the area"
+          },
+          "href": {
+            "type": "string",
+            "description": "Specifies the URL of the page the link goes to"
+          },
+          "alt": {
+            "type": "string",
+            "description": "Specifies an alternative text for the area"
+          },
+          "target": {
+            "type": "string",
+            "description": "Specifies where to open the linked document"
+          }
+        },
+        "required": ["id", "shape", "coords", "href"]
+      }
+    }
+  },
+  "required": ["area"]
+}
